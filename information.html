@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user information </title>
+</head>
+<body>
+    <h1 style="text-align: center;">Enter Your Details Hear </h1>
+    <form action="" style="text-align: center;">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text"  id="email" placeholder="abcd@gmail.com" required>
+        <br><br>
+        <label for="DOB">Date of Birh</label>
+        <input type="date"  id="DOB"required>
+        <br><br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="phone"  placeholder="0123456789"  pattern="[0-9]{10}" required />
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age"  placeholder="Enter Your Age" required>
+        <br><br>
+        <h3>Select Your Gender</h3>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="Female" name="gender" value="Female" required />
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="None" name="gender" value="None" required />
+        <label for="None">None</label>
+        <br><br>
+        <h3>Select Your  Education Lable</h3>
+        <select name="education Details" id="education selector" required>
+            <option value="9th">9th<option>
+            <option value="10th">10th</option>
+            <option value="11th">11th</option>
+            <option value="12th">12th</option>
+            <option value="Graduation">High Graduation</option>
+        </select>
+        <br><br>
+        <label for="Address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter Your Address" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>
